@@ -1,4 +1,4 @@
-public int FizzBuzz(int number)
+public string FizzBuzz(int number)
 {
     if (number % 3 == 0)
     {
@@ -14,7 +14,7 @@ public int FizzBuzz(int number)
     }
     else 
     {
-        return ("fizzbuzz");
+        return ("The number is no divisible by 3 or 5.");
     }
 }
 
